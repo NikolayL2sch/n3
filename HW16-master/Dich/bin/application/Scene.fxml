@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="599.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <TextField fx:id="txt1" layoutX="45.0" layoutY="52.0" prefHeight="21.0" prefWidth="171.0" promptText="dont u ever print anything here">
+         <font>
+            <Font name="NSimSun" size="10.0" />
+         </font>
+      </TextField>
+      <Button fx:id="button2" layoutX="107.0" layoutY="175.0" mnemonicParsing="false" text="Exit">
+         <font>
+            <Font name="Onyx" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="button1" layoutX="86.0" layoutY="113.0" mnemonicParsing="false" onAction="#action" text="Say hello">
+         <font>
+            <Font name="Mistral" size="21.0" />
+         </font>
+      </Button>
+      <Label fx:id="label1" layoutX="117.0" layoutY="88.0" />
+   </children>
+</AnchorPane>
